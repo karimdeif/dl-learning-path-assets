@@ -25,9 +25,9 @@ import os
 import numpy as np
 import tensorflow as tf
 print(tf.__version__)
-if not tf.__version__ == '2.2.0-rc0':
+if not tf.__version__ == '2.2.0rc1':
     print(tf.__version__)
-    raise ValueError('please upgrade to TensorFlow 2.2.0-rc0, or restart your Kernel (Kernel->Restart & Clear Output)')
+    raise ValueError('please upgrade to TensorFlow 2.2.0-rc1, or restart your Kernel (Kernel->Restart & Clear Output)')
 
 
 def _read_words(filename):
